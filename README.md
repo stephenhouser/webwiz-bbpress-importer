@@ -12,3 +12,6 @@ Known Issues:
 * Does not convert private messages.
 * Does not convert avatars.
 * Does not convert signatures.
+* Does not fix-up links to posts within posts.
+* Pretends you have moved all previous images into `/webwiz/uploads`.
+* Pretends you have copied WebWiz "smiley" images into `/webwiz/smileys`
