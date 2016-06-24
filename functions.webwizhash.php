@@ -1,4 +1,5 @@
 <?php
+// Cloned from: https://github.com/vanilla/vanilla/blob/master/library/vendors/misc/functions.webwizhash.php
 
 function ww_CheckPassword($Password, $StoredHash) {
    list($Salt, $Hash) = explode('$', $StoredHash);
